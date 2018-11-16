@@ -24,8 +24,8 @@ import mysql.connector
 
 conn = mysql.connector.connect(
          user='pi',
-         password='root66',
-         host='192.168.0.221',
+         password='<password>',
+         host='<host>',
          port='3306',
          database='sensorData')
 
